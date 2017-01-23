@@ -1,4 +1,9 @@
-name: Michael Gutensohn
+name: Rollins ACM
 markdown: kramdown
+
+url: 'https://rollinsacm.github.io'
+baseurl: 'https://rollinsacm.github.io'
+
+title: Rollins ACM
 
 excerpt_separator: "<!--excerpt-->"
