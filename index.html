@@ -1,0 +1,26 @@
+---
+layout: default
+title: Michael Gutensohn
+---
+<div class="row">
+	<div class="twelve columns">
+{% for post in site.posts %}
+<div class="post">
+		<img src="{{ post.image }}"/>
+    <h3 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h3>
+
+    <span class="post-date">{{ post.date | date: '%b %-d, %Y' }}</span>
+
+    {{ post.excerpt }}
+    {% if post.content contains site.excerpt_separator %}
+    <a class="my-button" href="{{ post.url }}">Read more</a>
+    {% endif %}
+  </div>
+  {% endfor %}
+
+</div>
+</div>
