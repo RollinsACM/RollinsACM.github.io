@@ -5,6 +5,9 @@ title: Web Developers Wanted
 ---
 
 Dear Rollins ACM Members,
+
 This website is sad. Please make it pretty!
+
 Sincerely,
-      Rollins ACM
+
+   Rollins ACM
