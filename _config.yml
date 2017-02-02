@@ -1,8 +1,8 @@
 name: Rollins ACM
 markdown: kramdown
 
-url: 'https://rollinsacm.github.io'
-baseurl: 'https://rollinsacm.github.io'
+url: 'http://acm.rollins.edu'
+baseurl: 'http://acm.rollins.edu'
 
 title: Rollins ACM
 
