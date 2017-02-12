@@ -6,4 +6,4 @@ baseurl: 'http://acm.rollins.edu'
 
 title: Rollins ACM
 
-excerpt_separator: "<!--excerpt-->"
+excerpt_separator: <!--excerpt-->

@@ -1,15 +1,12 @@
+/** Structure Elements **/
 body {
-    width: 70%;
+    width: 80%;
 }
-nav ul, footer ul {
-    font-family:"ipm","Menlo","Courier New",monospace !important;
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 15px;
+
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+    padding-top: 6px;
 }
 
 .navbar{
@@ -19,31 +16,54 @@ nav ul li, footer ul li {
     overflow: hidden;
 }
 
-a {
-    text-decoration: none;
-    color: #999;
+nav ul, footer ul {
+    font-family:"ipm","Menlo","Courier New",monospace !important;
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
 }
 
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+
+/** Text Formatting **/
 h1, h2, h3, h4, h5, h6 {
     font-family:"ipm","Menlo","Courier New",monospace !important;
 }
+
 p {
     font-size: 16px !important;
     line-height: 1.4em !important;
     color: #333;
 }
 
-/** my stuff **/
+
+/** List Formatting **/
+
+
+/** Link Formatting **/
+a {
+    text-decoration: none;
+    color: #999;
+}
+
+a:active {
+  color:#cf0b3a;
+  border-color: #cf0b3a;
+  transition: color .1s, border-color .5s;
+}
+
+/** Custom Elements **/
+/*#header {
+    background-color: #42b0f4;
+}*/
 
 .name{
   white-space: nowrap;
   font-size: 5vw;
-}
-
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-    padding-top: 6px;
 }
 
 .my-button {
@@ -59,12 +79,6 @@ footer {
     border: 2px solid #999;
     box-shadow: 2px 3px black;
     transition: border .1s, box-shadow 1s, ease-in;
-}
-
-a:active{
-  color:#cf0b3a;
-  border-color: #cf0b3a;
-  transition: color .1s, border-color .5s;
 }
 
 img{

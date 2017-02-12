@@ -7,10 +7,12 @@ title: Rollins ACM
 <div class="twelve columns">
 	
 	<!-- About ACM segment -->
-	{% include about.html %}
-	
+	<!-- Note: Figure out how to auto generate this from About page -->
+	<h1>About Rollins ACM Student Chapter</h1>
+	The Rollins Student Chapter of the Association of Computing Machinery was created to provide more educational experiences outside the classroom. Meeting attendees gain further exposure to coding practice and challenging problems, while simulataneously preparing for their future in the field.
+
 	<!-- Display most recent 3 posts -->
-	{% for post in site.posts limit: 3%}
+	{% for post in site.posts limit: 3 %}
 		<div class="post">
 			<img src="{{ post.image }}"/>
 			<h3 class="post-title">

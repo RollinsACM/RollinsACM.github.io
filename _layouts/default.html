@@ -13,17 +13,21 @@
 	</head>
 	<body>
 		
-		<!-- Fancy Header -->
-		{% include fancyHeader.html %}
+		<div id="header">
+			<!-- Fancy Header -->
+			{% include fancyHeader.html %}
+			
+			<!-- Navigation -->
+			<nav>
+	    		<ul class="navbar">
+	    			<li><a class="my-button" href="/index.html">Home</a></li>
+	    			<li><a class="my-button" href="/about">About</a></li>
+		        	<li><a class="my-button" href="/resources">Resources</a></li>
+	            <li><a class="my-button" href="/archive">Archive</a></li>
+	    		</ul>
+			</nav>
+		</div>
 		
-		<!-- Navigation -->
-		<nav>
-    		<ul class="navbar">
-    			<li><a class="my-button" href="/index.html">Home</a></li>
-	        	<li><a class="my-button" href="/resources">Resources</a></li>
-            <li><a class="my-button" href="/archive">Archive</a></li>
-    		</ul>
-		</nav>
 		
 		<!-- /.container -->
 		<div class="container">
