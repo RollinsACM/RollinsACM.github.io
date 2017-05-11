@@ -1,14 +1,12 @@
 ---
 layout: post
 date: 2017-02-02
-title: Web Developers Wanted
+title: ACM Webiste
 ---
 
+Dear Rollins ACM Members,  
 
-Dear Rollins ACM Members,
+We now have a website! Let's do cool things with it!  
 
-This website is sad and boring. Please make it pretty!
-
-Sincerely,
-
+Sincerely,  
    Rollins ACM
